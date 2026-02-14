@@ -11,7 +11,49 @@ All APIs, images and trademarks used in this project are reserved by [Synology I
 Synstagram adopted Modular Architecture.  
 Modules are managed as separate targets and repositories.
 
-<img src="/Screenshots/Application Structure.png">
+```mermaid
+block-beta
+  columns 3
+
+  block:app:3
+    columns 3
+    space
+    Synstagram
+    space
+  end
+
+  block:scenes:3
+    columns 5
+    LaunchScene
+    LoginScene
+    AlbumListScene
+    AlbumScene
+    s1["..."]
+  end
+
+  block:modules:3
+    columns 3
+    APIService
+    Dependencies
+    s2["..."]
+  end
+
+  block:shared:3
+    columns 4
+    BinaryloaderUI
+    BinaryloaderNetwork
+    BinaryloaderExtensions
+    BinaryloaderLog
+    BinaryloaderDIContainer
+    BinaryloaderAnalytics
+    BinaryloaderCrashlytics
+    s3["..."]
+  end
+
+  app --"App"--> scenes
+  scenes --"Scenes"--> modules
+  modules --"Synstagram Module (Core)"--> shared
+```
 
 ### App
 User client developed using all modules.
@@ -51,9 +93,9 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 ## Screenshots
 
 ### LaunchScene
-<img src="/Screenshots/LaunchScene.png">
+<img src="Screenshots/LaunchScene.png">
 
 ### LoginScene
-<img src="/Screenshots/LoginScene1.png">
-<img src="/Screenshots/LoginScene2.png">
-<img src="/Screenshots/LoginScene3.png">
+<img src="Screenshots/LoginScene1.png">
+<img src="Screenshots/LoginScene2.png">
+<img src="Screenshots/LoginScene3.png">

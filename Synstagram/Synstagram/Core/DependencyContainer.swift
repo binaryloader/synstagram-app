@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import BinaryloaderDIContainer
+import BinaryLoaderDIContainer
 import LoginScene
 
 final class DependencyContainer {

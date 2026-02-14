@@ -18,9 +18,9 @@ User client developed using all modules.
 Smallest screen unit that makes up the app and adopts CleanSwift's VIP architecture pattern.
 
 ### SynstagramModule
-Modules created using the BinaryloaderModule are essential modules for developing scenes or app.
+Modules created using the BinaryLoaderModule are essential modules for developing scenes or app.
 
-### BinaryloaderModule
+### BinaryLoaderModule
 Modules such as network, log, and extensions needed to develop iOS apps as well as the synstagram.
 
 ## Repositories
@@ -35,7 +35,7 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 - https://github.com/binaryloader/synstagram-module-apiservice
 - https://github.com/binaryloader/synstagram-module-dependencies
 
-### BinaryloaderModule
+### BinaryLoaderModule
 - https://github.com/binaryloader/binaryloader-ui
 - https://github.com/binaryloader/binaryloader-network
 - https://github.com/binaryloader/binaryloader-dicontainer

@@ -7,7 +7,7 @@
 
 import UIKit
 import Dependencies
-import BinaryloaderDIContainer
+import BinaryLoaderDIContainer
 
 final class LoginSceneLauncher {
     

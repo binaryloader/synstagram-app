@@ -29,15 +29,15 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Moya
-  https://github.com/binaryloader/iOS-Binaryloader-Module-CocoaPods-Specs.git:
+  https://github.com/binaryloader/cocoapods-specs.git:
     - BinaryloaderDIContainer
     - BinaryloaderExtensions
     - BinaryloaderNetwork
     - BinaryloaderUI
-  https://github.com/binaryloader/Synstagram-Module-CocoaPods-Specs.git:
+  https://github.com/binaryloader/synstagram-module-cocoapods-specs.git:
     - APIService
     - Dependencies
-  https://github.com/binaryloader/Synstagram-Scene-CocoaPods-Specs.git:
+  https://github.com/binaryloader/synstagram-scene-cocoapods-specs.git:
     - LoginScene
 
 SPEC CHECKSUMS:

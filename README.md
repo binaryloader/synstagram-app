@@ -55,3 +55,7 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 <img src="Screenshots/LoginScene1.png">
 <img src="Screenshots/LoginScene2.png">
 <img src="Screenshots/LoginScene3.png">
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

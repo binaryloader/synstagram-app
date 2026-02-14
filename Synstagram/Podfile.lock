@@ -1,34 +1,31 @@
 PODS:
-  - Alamofire (5.4.0)
-  - APIService/Auth (1.0.5):
+  - Alamofire (5.11.1)
+  - APIService/Auth (1.0.6):
     - BinaryloaderExtensions (= 1.0.2)
     - BinaryloaderNetwork (= 1.0.4)
-  - Dependencies/AlbumList (1.0.2)
-  - Dependencies/Login (1.0.2)
   - BinaryloaderDIContainer (1.0.4)
   - BinaryloaderExtensions (1.0.2)
   - BinaryloaderNetwork (1.0.4):
-    - Moya (= 14.0.0)
+    - Moya (= 15.0.0)
   - BinaryloaderUI/InsetTextField (1.0.2)
-  - LoginScene (1.0.8):
-    - APIService/Auth (= 1.0.5)
-    - Dependencies/AlbumList (= 1.0.2)
-    - Dependencies/Login (= 1.0.2)
+  - Dependencies/AlbumList (1.0.2)
+  - Dependencies/Login (1.0.2)
+  - LoginScene (1.0.9):
+    - APIService/Auth (= 1.0.6)
     - BinaryloaderDIContainer (= 1.0.4)
     - BinaryloaderExtensions (= 1.0.2)
     - BinaryloaderUI/InsetTextField (= 1.0.2)
-  - Moya (14.0.0):
-    - Moya/Core (= 14.0.0)
-  - Moya/Core (14.0.0):
+    - Dependencies/AlbumList (= 1.0.2)
+    - Dependencies/Login (= 1.0.2)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
 
 DEPENDENCIES:
-  - LoginScene (= 1.0.8)
+  - LoginScene (= 1.0.9)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - Alamofire
-    - Moya
   https://github.com/binaryloader/cocoapods-specs.git:
     - BinaryloaderDIContainer
     - BinaryloaderExtensions
@@ -39,18 +36,21 @@ SPEC REPOS:
     - Dependencies
   https://github.com/binaryloader/synstagram-scene-cocoapods-specs.git:
     - LoginScene
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Moya
 
 SPEC CHECKSUMS:
-  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
-  APIService: 115f9ac1ba41c63be2d76acaa6c3433867701b49
-  Dependencies: 933a950d5cebc8f4005a243bcf900e9221060831
-  BinaryloaderDIContainer: d483286cb6ff116e5aaa750c9f6378c27247be10
-  BinaryloaderExtensions: 8949a6585d781d4e59a751d04a625b4036864c4d
-  BinaryloaderNetwork: 8d748e826fba5ff43e212445ef0174ee29d27c18
-  BinaryloaderUI: d67f1216b581a6ace8a1ce1e69785fed2511ea6f
-  LoginScene: 7da15eea0eb0672f35766f1482035f5f7f54d28f
-  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Alamofire: eec6cd8f73b242b59e34153a606a909eb9864b14
+  APIService: f642c6891ebf36adab147294200e6fef1841104f
+  BinaryloaderDIContainer: 9a8aa40dc3aee1cd864c6f6647ee353565fc4842
+  BinaryloaderExtensions: cef68325d4b908ac42f82ff36c8573416532232c
+  BinaryloaderNetwork: 40ce042347ff7ed0f37a79aec9670f0ff03d25aa
+  BinaryloaderUI: 07293343e6781329c62ed47bdc57b8e5312a5fe0
+  Dependencies: f63cf2ec33ed229c3e523f2a9dd59ac84d182559
+  LoginScene: 4e6b433ece881a0a5dafe65e0e7bc81273f0675d
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
 
-PODFILE CHECKSUM: 2558921c7beeb8cfb5196449a8846c9fca6ecc18
+PODFILE CHECKSUM: a6c187f160891ed7e1c4d811d3e7c266ddd34172
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.16.2

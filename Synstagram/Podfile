@@ -3,13 +3,13 @@ source 'https://github.com/binaryloader/cocoapods-specs.git'
 source 'https://github.com/binaryloader/synstagram-module-cocoapods-specs.git'
 source 'https://github.com/binaryloader/synstagram-scene-cocoapods-specs.git'
 
-platform :ios, '11.0'
+platform :ios, '13.0'
 project 'Synstagram'
 inhibit_all_warnings!
 use_frameworks!
 
 def scenes
-    pod 'LoginScene', '1.0.8'
+    pod 'LoginScene', '1.0.9'
 end
 
 target :'Synstagram' do

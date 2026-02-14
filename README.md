@@ -11,8 +11,6 @@ All APIs, images and trademarks used in this project are reserved by [Synology I
 Synstagram adopted Modular Architecture.  
 Modules are managed as separate targets and repositories.
 
-<img src="Screenshots/Application Structure.png">
-
 ### App
 User client developed using all modules.
 
@@ -38,10 +36,10 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 - https://github.com/binaryloader/synstagram-module-dependencies
 
 ### BinaryloaderModule
-- BinaryloaderUI
-- BinaryloaderNetwork
-- BinaryloaderDIContainer
-- BinaryloaderExtensions
+- https://github.com/binaryloader/binaryloader-ui
+- https://github.com/binaryloader/binaryloader-network
+- https://github.com/binaryloader/binaryloader-dicontainer
+- https://github.com/binaryloader/binaryloader-extensions
 
 ### CocoaPods Specs
 - https://github.com/binaryloader/synstagram-scene-cocoapods-specs

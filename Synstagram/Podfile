@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/binaryloader/iOS-Binaryloader-Module-CocoaPods-Specs.git'
+source 'https://github.com/binaryloader/Synstagram-Module-CocoaPods-Specs.git'
+source 'https://github.com/binaryloader/Synstagram-Scene-CocoaPods-Specs.git'
+
+platform :ios, '11.0'
+project 'Synstagram'
+inhibit_all_warnings!
+use_frameworks!
+
+def scenes
+    pod 'LoginScene', '1.0.8'
+end
+
+target :'Synstagram' do
+    scenes
+end

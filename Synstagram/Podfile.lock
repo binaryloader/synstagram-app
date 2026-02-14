@@ -10,7 +10,7 @@ PODS:
   - BinaryloaderUI/InsetTextField (1.0.2)
   - Dependencies/AlbumList (1.0.2)
   - Dependencies/Login (1.0.2)
-  - LoginScene (1.0.9):
+  - LoginScene (1.0.10):
     - APIService/Auth (= 1.0.6)
     - BinaryloaderDIContainer (= 1.0.4)
     - BinaryloaderExtensions (= 1.0.2)
@@ -23,7 +23,7 @@ PODS:
     - Alamofire (~> 5.0)
 
 DEPENDENCIES:
-  - LoginScene (= 1.0.9)
+  - LoginScene (= 1.0.10)
 
 SPEC REPOS:
   https://github.com/binaryloader/cocoapods-specs.git:
@@ -43,14 +43,14 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: eec6cd8f73b242b59e34153a606a909eb9864b14
   APIService: f642c6891ebf36adab147294200e6fef1841104f
-  BinaryloaderDIContainer: 9a8aa40dc3aee1cd864c6f6647ee353565fc4842
-  BinaryloaderExtensions: cef68325d4b908ac42f82ff36c8573416532232c
+  BinaryloaderDIContainer: 5fb0e87624fbc34195be378dd1f07b5b86967181
+  BinaryloaderExtensions: aa243423db949a27ede4fd71f28df922aebb712a
   BinaryloaderNetwork: 40ce042347ff7ed0f37a79aec9670f0ff03d25aa
-  BinaryloaderUI: 07293343e6781329c62ed47bdc57b8e5312a5fe0
-  Dependencies: f63cf2ec33ed229c3e523f2a9dd59ac84d182559
-  LoginScene: 4e6b433ece881a0a5dafe65e0e7bc81273f0675d
+  BinaryloaderUI: d4a8b0c5ce726cef94a32c30122fe26bdaed74b2
+  Dependencies: 75817aca649a359deb1749a993f76c91b6dc5e0e
+  LoginScene: 9faa656c3e520675ce19c144febd2777440b5e10
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
 
-PODFILE CHECKSUM: a6c187f160891ed7e1c4d811d3e7c266ddd34172
+PODFILE CHECKSUM: 79638e1e4fe28b7b774072fb7c5aa693d46a26c9
 
 COCOAPODS: 1.16.2

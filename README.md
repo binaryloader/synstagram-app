@@ -28,26 +28,25 @@ Modules such as network, log, and extensions needed to develop iOS apps as well 
 ## Repositories
 
 ### App
-- [Synstagram](https://github.com/binaryloader/project-synstagram-app)
+- https://github.com/binaryloader/synstagram-app
 
 ### Scenes
-- [LoginScene](https://github.com/binaryloader/project-synstagram-scene-login)
+- https://github.com/binaryloader/synstagram-scene-login
 
 ### SynstagramModule
-- [APIService](https://github.com/binaryloader/project-synstagram-module-apiservice)
-- [Dependencies](https://github.com/binaryloader/project-synstagram-module-dependencies)
-
+- https://github.com/binaryloader/synstagram-module-apiservice
+- https://github.com/binaryloader/synstagram-module-dependencies
 
 ### BinaryloaderModule
-- [BinaryloaderUI](https://github.com/binaryloader/module-ios-binaryloader-ui)
-- [BinaryloaderNetwork](https://github.com/binaryloader/module-ios-binaryloader-network)
-- [BinaryloaderDIContainer](https://github.com/binaryloader/module-ios-binaryloader-dicontainer)
-- [BinaryloaderExtensions](https://github.com/binaryloader/module-ios-binaryloader-extensions)
+- BinaryloaderUI
+- BinaryloaderNetwork
+- BinaryloaderDIContainer
+- BinaryloaderExtensions
 
 ### CocoaPods Specs
-- [SynstagramScene](https://github.com/binaryloader/project-synstagram-scene-cocoaPods-specs)
-- [SynstagramModule](https://github.com/binaryloader/project-synstagram-module-cocoaPods-specs)
-- [BinaryloaderModule](https://github.com/binaryloader/module-ios-binaryloader-cocoaPods-specs)
+- https://github.com/binaryloader/synstagram-scene-cocoapods-specs
+- https://github.com/binaryloader/synstagram-module-cocoapods-specs
+- https://github.com/binaryloader/cocoapods-specs
 
 ## Screenshots
 

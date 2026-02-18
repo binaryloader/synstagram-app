@@ -1,29 +1,29 @@
 PODS:
   - Alamofire (5.11.1)
-  - APIService/Auth (1.0.6):
-    - BinaryLoaderExtensions (= 1.0.2)
-    - BinaryLoaderNetwork (= 1.0.4)
-  - BinaryLoaderDIContainer (1.0.4)
-  - BinaryLoaderExtensions (1.0.2)
-  - BinaryLoaderNetwork (1.0.4):
+  - APIService/Auth (1.0.10):
+    - BinaryLoaderExtensions (= 1.0.4)
+    - BinaryLoaderNetwork (= 1.0.7)
+  - BinaryLoaderDIContainer (1.0.6)
+  - BinaryLoaderExtensions (1.0.4)
+  - BinaryLoaderNetwork (1.0.7):
     - Moya (= 15.0.0)
-  - BinaryLoaderUI/InsetTextField (1.0.2)
-  - Dependencies/AlbumList (1.0.2)
-  - Dependencies/Login (1.0.2)
-  - LoginScene (1.0.10):
-    - APIService/Auth (= 1.0.6)
-    - BinaryLoaderDIContainer (= 1.0.4)
-    - BinaryLoaderExtensions (= 1.0.2)
-    - BinaryLoaderUI/InsetTextField (= 1.0.2)
-    - Dependencies/AlbumList (= 1.0.2)
-    - Dependencies/Login (= 1.0.2)
+  - BinaryLoaderUI/InsetTextField (1.0.4)
+  - Dependencies/AlbumList (1.0.3)
+  - Dependencies/Login (1.0.3)
+  - LoginScene (1.0.14):
+    - APIService/Auth (= 1.0.10)
+    - BinaryLoaderDIContainer (= 1.0.6)
+    - BinaryLoaderExtensions (= 1.0.4)
+    - BinaryLoaderUI/InsetTextField (= 1.0.4)
+    - Dependencies/AlbumList (= 1.0.3)
+    - Dependencies/Login (= 1.0.3)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
 
 DEPENDENCIES:
-  - LoginScene (= 1.0.10)
+  - LoginScene (= 1.0.14)
 
 SPEC REPOS:
   https://github.com/binaryloader/cocoapods-specs.git:
@@ -42,15 +42,15 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: eec6cd8f73b242b59e34153a606a909eb9864b14
-  APIService: f642c6891ebf36adab147294200e6fef1841104f
-  BinaryLoaderDIContainer: 5fb0e87624fbc34195be378dd1f07b5b86967181
-  BinaryLoaderExtensions: aa243423db949a27ede4fd71f28df922aebb712a
-  BinaryLoaderNetwork: 40ce042347ff7ed0f37a79aec9670f0ff03d25aa
-  BinaryLoaderUI: d4a8b0c5ce726cef94a32c30122fe26bdaed74b2
-  Dependencies: 75817aca649a359deb1749a993f76c91b6dc5e0e
-  LoginScene: 9faa656c3e520675ce19c144febd2777440b5e10
+  APIService: b4dc230967d321ea434cc5ca611ddbfd2d719794
+  BinaryLoaderDIContainer: ca370daee9113b35d2753c038875d252d26a42e8
+  BinaryLoaderExtensions: fbc238a1795ab1aec2077892635431e95039cb70
+  BinaryLoaderNetwork: 63af34dc153ab9661d8714b3b55707dc02464417
+  BinaryLoaderUI: 643d4dce5781d6a35d2e489791d515e47724b070
+  Dependencies: a2a7fbd1eef5983573b8ebede511ed87bf7e7aa7
+  LoginScene: 49ee082c3d48cf570620a36d73cafed2371a5a45
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
 
-PODFILE CHECKSUM: 79638e1e4fe28b7b774072fb7c5aa693d46a26c9
+PODFILE CHECKSUM: 43342e94df3c6e538d0d85d8b5866d3dedce3be0
 
 COCOAPODS: 1.16.2

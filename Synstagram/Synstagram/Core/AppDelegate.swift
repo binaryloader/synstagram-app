@@ -2,17 +2,20 @@
 //  AppDelegate.swift
 //  Synstagram
 //
-//  Created by binaryloader on 2020/10/11.
+//  Created by BinaryLoader on 10/11/20.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+
     var window: UIWindow?
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
         DependencyContainer.registerAll()
         HierarchyCoordinator.configure(window: &window)
         return true

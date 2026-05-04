@@ -24,7 +24,7 @@ Synstagram은 모듈러 아키텍처를 채택했다.
 
 ### SynstagramModule
 
-BinaryLoaderModule을 사용해 만든 모듈로, Scene이나 App을 개발하는 데 필수적이다.
+BinaryLoaderModule을 사용해 만든 모듈이며 Scene이나 App을 개발하는 데 필수적이다.
 
 ### BinaryLoaderModule
 
